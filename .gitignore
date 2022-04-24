@@ -1,3 +1,5 @@
 
-**-backups/**
+**-backups/
 *.gbr
+*.drl
+*gbrjob

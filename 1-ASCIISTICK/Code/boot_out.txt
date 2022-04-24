@@ -1,0 +1,2 @@
+Adafruit CircuitPython 7.2.5 on 2022-04-06; Seeeduino XIAO KB with samd21g18
+Board ID:seeeduino_xiao_kb
