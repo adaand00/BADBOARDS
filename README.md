@@ -4,6 +4,10 @@
 ## Current boards
 
 ### BB-1 ASCIISTICK
+Back to the roots. Gain full control with raw ascii input.
+
+### BB-2 GRIDNAVIGATOR
+*Etch-a-sketch* for the 21st century. This keyboard even has additional mouse input.
 
 ## Future keyboards
 
@@ -11,7 +15,6 @@
 - [ ] ascending letters + next
 - [ ] Slot machine letters
 - [ ] Joystick
-- [ ] Etch-a-sketch 
 - [ ] Frequency control
 - [ ] Flute
 - [ ] Accelerometer

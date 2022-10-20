@@ -12,7 +12,7 @@ pixels = neopixel.NeoPixel(board.D8, 8, brightness=0.3)
 pixels.fill((0, 0, 0))
 pixels.show()
 
-enterkey = 0
+enterkey = 7
 
 lastkey = "00000000"
 newkey = True
