@@ -1,0 +1,57 @@
+13122871752174
+RF_Antenna
+Abracon_APAES868R8060C16-T
+Abracon RHCP ceramic patch antenna 854-882Mhz, 5dBi
+APAES patch antenna
+0
+1
+1
+RF_Antenna
+Coilcraft_MA5532-AE_RFID
+RFID Transponder Coil
+antenna rfid coilcraft
+0
+2
+2
+RF_Antenna
+Johanson_2450AT18x100
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, -0.5dBi, https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Johanson_2450AT43F0100
+Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf
+antenna
+0
+2
+2
+RF_Antenna
+Pulse_W3011
+Pulse RF Antenna, 4mm Clearance
+antenna rf
+0
+3
+2
+RF_Antenna
+Texas_SWRA117D_2.4GHz_Left
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
+RF_Antenna
+Texas_SWRA117D_2.4GHz_Right
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
+RF_Antenna
+Texas_SWRA416_868MHz_915MHz
+http://www.ti.com/lit/an/swra416/swra416.pdf
+PCB antenna
+0
+20
+1

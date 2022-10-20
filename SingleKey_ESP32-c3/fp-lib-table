@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "ESP32-C3FH4")(type "KiCad")(uri "${KIPRJMOD}/Libs/ESP32-C3FH4")(options "")(descr ""))
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "C:/Users/Adam/Documents/GitHub/BADBOARDS/SingleKeyPCB_rp2040ver/RP2040_minimal.pretty")(options "")(descr ""))
+)
