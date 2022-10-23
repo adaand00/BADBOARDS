@@ -87,9 +87,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "GRB-c3Singlekey/")
     )
   )
 
@@ -135,7 +135,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14235e97-f51e-4e1b-b51e-945396f347ac)
     )
-    (fp_text value "100n" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100n" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18b7182e-1824-4652-acab-03b7505714a0)
     )
@@ -177,7 +177,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64007a26-6ffa-4f5a-be10-9c9861f6e57c)
     )
-    (fp_text value "100n" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100n" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34c681ac-c833-43de-af5d-92caae23be17)
     )
@@ -219,7 +219,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 310c10a3-f471-4c4a-8cda-0b095f3d877c)
     )
-    (fp_text value "1uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a4b4692c-710e-448e-b56c-8b3cc704a895)
     )
@@ -261,7 +261,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e5b6a86f-be99-4a86-8106-467cf6bede55)
     )
-    (fp_text value "10uF" (at 0 1.85) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.85) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9d85e482-d1df-4bd2-94c5-9bc5083d59b1)
     )
@@ -279,9 +279,9 @@
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 6a7b07d2-6fbd-44fd-a828-b5d8906a802e))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp b42eca72-46b8-443e-9a7b-333ec9a7a552))
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp e83c06b7-f5fc-4d75-8e16-1cb0f984b1d5))
-    (pad "1" smd roundrect locked (at -1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect locked (at -1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 5 "+3V3") (pintype "passive") (tstamp fd61cf4f-fef3-440b-a6e1-e2518e659955))
-    (pad "2" smd roundrect locked (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect locked (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 1 "Earth") (pintype "passive") (tstamp 02438ca0-52b5-4507-8479-f026756de330))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -303,7 +303,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 888a2618-2942-470a-8286-aa6d67dd286d)
     )
-    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f644210f-9617-4b44-b144-80d1a5f56f8e)
     )
@@ -345,7 +345,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3dbb971b-6a2f-4930-99c5-0b335d692c0d)
     )
-    (fp_text value "10uF" (at 0 1.85 90) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.85 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d132029b-09c7-4525-9ab1-f8195cd41937)
     )
@@ -363,9 +363,9 @@
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 91d7c63f-2130-4ef9-8466-5296b093c0f5))
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp cbabf179-3f75-4d3b-b6da-e0c14afe6061))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp d037d56c-4cc7-412e-b19d-558a5819881c))
-    (pad "1" smd roundrect locked (at -1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect locked (at -1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 6 "+5V") (pintype "passive") (tstamp 650fcf8d-424a-49e7-a7b5-4aebb2e6898d))
-    (pad "2" smd roundrect locked (at 1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect locked (at 1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 1 "Earth") (pintype "passive") (tstamp 4425a08b-1c0f-41e5-a446-98dc48c5662a))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -387,7 +387,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f588b395-0204-4afc-93b8-70541f490409)
     )
-    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dcc14a8f-4ef8-4ecb-98d1-3d9cf738cb0b)
     )
@@ -429,7 +429,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd0d663b-cc3f-4d84-a46e-bc7d7cfc7a18)
     )
-    (fp_text value "SW_Push" (at 0 2.55 90) (layer "F.Fab")
+    (fp_text value "SW_Push" (at 0 2.55 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 73b7da7b-eb3f-441a-89bc-bb935c5348c7)
     )
@@ -480,7 +480,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee556f6c-0a63-4195-b5e3-678d6f90db6b)
     )
-    (fp_text value "ESP32-C3FH4" (at 9.39 4.105 90) (layer "F.Fab")
+    (fp_text value "ESP32-C3FH4" (at 9.39 4.105 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c37a23f-9362-4abd-952a-d541c9b780f8)
     )
@@ -669,7 +669,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2731d0bc-3b7f-4891-b390-d545f67a9ce0)
     )
-    (fp_text value "1k" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "1k" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 237a4604-c7e1-4c2c-825d-98a0e24930fd)
     )
@@ -711,7 +711,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4516a169-33ed-499a-8ab2-c4942b94143d)
     )
-    (fp_text value "Antenna" (at 4.55 1.21) (layer "F.Fab")
+    (fp_text value "Antenna" (at 4.55 1.21) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42e72deb-0491-4d16-b400-a97912d77d6e)
     )
@@ -807,7 +807,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 789a693c-a60f-499e-81ad-8a84d5e94093)
     )
-    (fp_text value "1k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f43ef8e-269f-40b4-aa26-daf44d25d3a6)
     )
@@ -849,7 +849,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93e3576c-2d23-4e4f-afa3-be66f284339c)
     )
-    (fp_text value "Crystal_GND24" (at 0 2.45) (layer "F.Fab")
+    (fp_text value "Crystal_GND24" (at 0 2.45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffff2ee1-15e7-4e0c-a917-642713af3f68)
     )
@@ -904,7 +904,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b42197d-8a85-49b3-8e5d-44c933430eb0)
     )
-    (fp_text value "LM1117-3.3" (at 0.3 3.5) (layer "F.Fab")
+    (fp_text value "LM1117-3.3" (at 0.3 3.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4ce4b24-b375-4443-9575-3ae5b3049231)
     )
@@ -1011,7 +1011,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8a1a331a-7a88-4b44-b2e2-02a1e320d122)
     )
-    (fp_text value "SW_Push" (at -2.54 -12.954 90) (layer "B.Fab")
+    (fp_text value "SW_Push" (at -2.54 -12.954 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4ac5c9d0-5319-4087-95e9-a5df4046e83e)
     )
